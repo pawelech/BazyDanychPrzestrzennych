@@ -1,0 +1,17 @@
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2018_KAR_GERMANY\T2018_KAR_BUILDINGS.shp" buildings_2018 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2019_KAR_GERMANY\T2019_KAR_BUILDINGS.shp" buildings_2019 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2018_KAR_GERMANY\T2018_KAR_POI_TABLE.shp" pois_2018 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2019_KAR_GERMANY\T2019_KAR_POI_TABLE.shp" pois_2019 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2019_KAR_GERMANY\T2019_KAR_STREETS.shp" streets_2019 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2019_KAR_GERMANY\T2019_KAR_STREET_NODE.shp" street_node_2019 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2019_KAR_GERMANY\T2019_KAR_LAND_USE_A.shp" land_use_2019 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2019_KAR_GERMANY\T2019_KAR_RAILWAYS.shp" railways_2019 | psql -h localhost -p 5432 -U postgres -d cw3
+
+shp2pgsql.exe "C:\Users\pawel\OneDrive\Pulpit\bdp_cw3\T2019_KAR_GERMANY\T2019_KAR_WATER_LINES.shp" water_lines_2019 | psql -h localhost -p 5432 -U postgres -d cw3
